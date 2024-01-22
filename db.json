@@ -1,0 +1,96 @@
+{
+  "students": [
+    {
+      "userName": "ali",
+      "email": "ali@gmail.com",
+      "password": "123",
+      "subjects": [
+        {
+          "name": "Math",
+          "id": "2",
+          "degree": "2"
+        },
+        {
+          "name": "رياضيات",
+          "id": "1",
+          "degree": "1"
+        }
+      ],
+      "id": 1
+    },
+    {
+      "userName": "ali",
+      "email": "ali@gmail.com",
+      "password": "123",
+      "id": 2
+    },
+    {
+      "userName": "tes",
+      "email": "test@test.com",
+      "password": "123",
+      "id": 3
+    }
+  ],
+  "doctor": [
+    {
+      "userName": "admin",
+      "email": "admin@admin.com",
+      "password": "123",
+      "id": 1
+    }
+  ],
+  "subjects": [
+    {
+      "name": "Math",
+      "questions": [
+        {
+          "question": "3*3",
+          "answer1": "9",
+          "answer2": "2",
+          "answer3": "4",
+          "answer4": "99",
+          "correctAnswer": "9"
+        },
+        {
+          "question": "45+5",
+          "answer1": "34",
+          "answer2": "50",
+          "answer3": "65",
+          "answer4": "55",
+          "correctAnswer": "50"
+        },
+        {
+          "question": "30*4",
+          "answer1": "544",
+          "answer2": "134",
+          "answer3": "120",
+          "answer4": "124",
+          "correctAnswer": "120"
+        }
+      ],
+      "id": 2
+    },
+    {
+      "name": "اللغة العربية",
+      "questions": [
+        {
+          "question": "بللبلب",
+          "answer1": "لبلب",
+          "answer2": "لبلب",
+          "answer3": "ننت",
+          "answer4": "ؤءؤء",
+          "correctAnswer": "ؤءؤء"
+        }
+      ],
+      "id": 3
+    }
+  ],
+  "login": [
+    {
+      "userName": "admin",
+      "role": "doctor",
+      "userId": 1,
+      "id": 1
+    }
+  ]
+}
